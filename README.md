@@ -7,6 +7,12 @@ This project was created for the JURU full-stack technical test.
 
 A single-page task management application built with PostgreSQL, Express, React, and Node.js. Tasks are stored in PostgreSQL and can be searched, filtered by status, and viewed 10 at a time.
 
+## Preview
+
+![Tambah Task](docs/new%20task.png)
+
+![Daftar Task](docs/task%20list.png)
+
 ## Run with Docker
 
 Prerequisites: Docker Engine and Docker Compose. From the project root, create your environment file:
@@ -48,6 +54,7 @@ The seeder uses Node.js and the `pg` driver. Sample tasks are defined in `server
 
 - `client/`: React, Vite, Nginx, and interface styles.
 - `server/`: Express API and PostgreSQL schema SQL.
+- `docs/`: documentation assets.
 - `compose.yaml`: three services (`db`, `backend`, `frontend`) and the database volume.
 - `.env.example`: example configuration without real credentials.
 
